@@ -1,0 +1,40 @@
+(Project-Starter) labsuser@vscode:~/cd14712-exercises/Project-Starter$ uv run pytest test_server.py test_client.py -v 
+================================================== test session starts ==================================================
+platform linux -- Python 3.10.14, pytest-9.1.1, pluggy-1.6.0 -- /voc/work/cd14712-exercises/Project-Starter/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /voc/work/cd14712-exercises/Project-Starter
+configfile: pyproject.toml
+plugins: anyio-4.14.2
+collected 22 items                                                                                                      
+
+test_server.py::test_scrape_websites_creates_files_and_metadata PASSED                                            [  4%]
+test_server.py::test_scrape_websites_handles_failure PASSED                                                       [  9%]
+test_server.py::test_scrape_websites_handles_v2_document_response_without_success_key PASSED                      [ 13%]
+test_server.py::test_scrape_websites_handles_exception_from_v2_api PASSED                                         [ 18%]
+test_server.py::test_scrape_websites_respects_cache_and_force PASSED                                              [ 22%]
+test_server.py::test_scrape_websites_respects_robots_txt PASSED                                                   [ 27%]
+test_server.py::test_scrape_websites_dedups_repeated_urls PASSED                                                  [ 31%]
+test_server.py::test_extract_scraped_info_matches_provider_url_and_domain PASSED                                  [ 36%]
+test_server.py::test_extract_scraped_info_no_match_returns_message PASSED                                         [ 40%]
+test_server.py::test_scrape_websites_strips_html_to_text PASSED                                                   [ 45%]
+test_server.py::test_scrape_websites_truncates_oversized_content PASSED                                           [ 50%]
+test_server.py::test_extract_scraped_info_defensively_truncates_legacy_files PASSED                               [ 54%]
+test_server.py::test_check_pricing_changes_detects_price_diff PASSED                                              [ 59%]
+test_server.py::test_check_pricing_changes_no_data_yet PASSED                                                     [ 63%]
+test_server.py::test_smoke_db_schema_matches_data_extractor PASSED                                                [ 68%]
+test_server.py::test_smoke_full_scrape_to_answer_flow PASSED                                                      [ 72%]
+test_client.py::test_sql_escape_doubles_single_quotes PASSED                                                      [ 77%]
+test_client.py::test_parse_sql_tool_result_handles_python_repr_from_mcp_server_sqlite PASSED                      [ 81%]
+test_client.py::test_parse_sql_tool_result_still_accepts_real_json PASSED                                         [ 86%]
+test_client.py::test_parse_sql_tool_result_handles_empty_result PASSED                                            [ 90%]
+test_client.py::test_insert_survives_query_with_python_dict_syntax PASSED                                         [ 95%]
+test_client.py::test_insert_survives_apostrophes_in_plan_and_features PASSED                                      [100%]
+
+=================================================== warnings summary ====================================================
+.venv/lib/python3.10/site-packages/pydantic_settings/sources/utils.py:47
+  /voc/work/cd14712-exercises/Project-Starter/.venv/lib/python3.10/site-packages/pydantic_settings/sources/utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+============================================ 22 passed, 1 warning in 13.32s =============================================
+(Project-Starter) labsuser@vscode:~/cd14712-exercises/Project-Starter$ 

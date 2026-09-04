@@ -1,0 +1,19 @@
+============================================ 22 passed, 1 warning in 13.32s =============================================
+(Project-Starter) labsuser@vscode:~/cd14712-exercises/Project-Starter$ python starter_client.py 
+/voc/work/cd14712-exercises/Project-Starter/.venv/lib/python3.10/site-packages/pydantic_settings/sources/utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.
+  warnings.warn(
+2026-08-18 01:08:36,510 - INFO - ✓ Server 'llm_inference' initialized
+2026-08-18 01:08:40,599 - INFO - ✓ Server 'sqlite' initialized
+Secure MCP Filesystem Server running on stdio
+2026-08-18 01:08:42,560 - INFO - ✓ Server 'filesystem' initialized
+2026-08-18 01:08:42,561 - mcp.server.lowlevel.server - INFO - Processing request of type ListToolsRequest
+Client does not support MCP Roots, using allowed directories set from server args: [ '/voc/work/cd14712-exercises/Project-Starter' ]
+
+Connected to 3 server(s)
+Available tools: ['scrape_websites', 'extract_scraped_info', 'check_pricing_changes', 'read_query', 'write_query', 'create_table', 'list_tables', 'describe_table', 'append_insight', 'read_file', 'read_text_file', 'read_media_file', 'read_multiple_files', 'write_file', 'edit_file', 'create_directory', 'list_directory', 'list_directory_with_sizes', 'directory_tree', 'move_file', 'search_files', 'get_file_info', 'list_allowed_directories']
+2026-08-18 01:08:42,569 - INFO - Executing write_query...
+2026-08-18 01:08:42,622 - INFO - ✓ Data extraction tables initialized
+Data extraction enabled
+
+MCP Chatbot with Data Extraction Started!
+Type your queries, 'show data' to view stored data, or 'quit' to exit.

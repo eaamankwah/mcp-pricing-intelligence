@@ -1,0 +1,302 @@
+{
+  "cloudrift": {
+    "provider_name": "cloudrift",
+    "url": "https://www.cloudrift.ai/inference",
+    "domain": "www.cloudrift.ai",
+    "scraped_at": "2026-08-18T00:30:10.878587",
+    "formats": [
+      "markdown",
+      "html"
+    ],
+    "success": "true",
+    "content_files": {
+      "markdown": "cloudrift_markdown.txt",
+      "html": "cloudrift_html.txt"
+    },
+    "content_lengths": {
+      "markdown": 2083,
+      "html": 1547
+    },
+    "truncated": false,
+    "truncated_formats": [],
+    "title": "Sovereign Inference API \u2022 Run Open Models on Your Infrastructure | CloudRift",
+    "description": "Deploy Llama 4, DeepSeek-V3, and other open models on sovereign infrastructure. Full data residency, no vendor lock-in. OpenAI-compatible API with enterprise-grade performance and security.",
+    "content_hash": "3c0b133b95d181cf6f1ed89f8cda8a683b2ceb1c204a6702ffd28f56f84490be",
+    "content_changed": false
+  },
+  "deepinfra": {
+    "provider_name": "deepinfra",
+    "url": "https://deepinfra.com/pricing",
+    "domain": "deepinfra.com",
+    "scraped_at": "2026-08-18T00:30:11.686455",
+    "formats": [
+      "markdown",
+      "html"
+    ],
+    "success": "true",
+    "content_files": {
+      "markdown": "deepinfra_markdown.txt",
+      "html": "deepinfra_html.txt"
+    },
+    "content_lengths": {
+      "markdown": 43244,
+      "html": 16830
+    },
+    "truncated": false,
+    "truncated_formats": [],
+    "title": "Simple Pricing | Machine Learning Infrastructure | DeepInfra",
+    "description": "We provide only pay-what-you-use pricing with no long-term contracts or upfront costs for our machine learning models and infrastructure. Learn more!",
+    "content_hash": "f136d662036018b551c5c6ba241d8608222c21f1d41777f5e25f4300f2b0f6f9",
+    "content_changed": false
+  },
+  "fireworks": {
+    "provider_name": "fireworks",
+    "url": "https://fireworks.ai/pricing#serverless-pricing",
+    "domain": "fireworks.ai",
+    "scraped_at": "2026-08-18T00:30:12.813314",
+    "formats": [
+      "markdown",
+      "html"
+    ],
+    "success": "true",
+    "content_files": {
+      "markdown": "fireworks_markdown.txt",
+      "html": "fireworks_html.txt"
+    },
+    "content_lengths": {
+      "markdown": 4802,
+      "html": 3674
+    },
+    "truncated": false,
+    "truncated_formats": [],
+    "title": "Fireworks - Pricing",
+    "description": "Choose the plan thats right for you.",
+    "content_hash": "91677358955da65cd566825da1b4139f18aa590bd81713ff535de93aad48640d",
+    "content_changed": false
+  },
+  "groq": {
+    "provider_name": "groq",
+    "url": "https://groq.com/pricing",
+    "domain": "groq.com",
+    "scraped_at": "2026-08-18T00:30:13.521131",
+    "formats": [
+      "markdown",
+      "html"
+    ],
+    "success": "true",
+    "content_files": {
+      "markdown": "groq_markdown.txt",
+      "html": "groq_html.txt"
+    },
+    "content_lengths": {
+      "markdown": 705,
+      "html": 612
+    },
+    "truncated": false,
+    "truncated_formats": [],
+    "title": "Groq is the premier neocloud for fast inference",
+    "description": "Groq is the premier neocloud for fast inference. One fully integrated platform for infrastructure, inference, and control. Millions of developers run trillions of tokens on Groq every week.",
+    "content_hash": "043b67fda35bb900ab237f1197ba31dde229e02defbbf860a0c4f012dc8180f5",
+    "content_changed": false
+  },
+  "cloudrift_docs": {
+    "provider_name": "cloudrift_docs",
+    "url": "https://docs.cloudrift.ai",
+    "domain": "docs.cloudrift.ai",
+    "scraped_at": "2026-08-18T00:36:15.047844",
+    "formats": [
+      "markdown",
+      "html"
+    ],
+    "success": "true",
+    "content_files": {
+      "markdown": "cloudrift_docs_markdown.txt",
+      "html": "cloudrift_docs_html.txt"
+    },
+    "content_lengths": {
+      "markdown": 730,
+      "html": 490
+    },
+    "truncated": false,
+    "truncated_formats": [],
+    "title": "Getting Started with CloudRift | CloudRift",
+    "description": "Learn how to get started with CloudRift - a platform for workload orchestration and management across multiple clouds and devices. Run your workloads on the most cost-effective cloud provider or on your own devices.",
+    "content_hash": "d2befa2c83f39040a3eed01f88249d5f4366e38d24275d572c86224ffb6c95d0",
+    "content_changed": false
+  },
+  "cloudrift_models": {
+    "provider_name": "cloudrift_models",
+    "url": "https://console.cloudrift.ai/inference",
+    "domain": "console.cloudrift.ai",
+    "scraped_at": "2026-08-18T00:36:17.081282",
+    "formats": [
+      "markdown",
+      "html"
+    ],
+    "success": "true",
+    "content_files": {
+      "markdown": "cloudrift_models_markdown.txt",
+      "html": "cloudrift_models_html.txt"
+    },
+    "content_lengths": {
+      "markdown": 300,
+      "html": 182
+    },
+    "truncated": false,
+    "truncated_formats": [],
+    "title": "CloudRift | AI Models",
+    "description": "Browse and deploy pre-configured AI models including LLMs, vision models, and more. Get instant access to popular models with ready-to-use API endpoints.",
+    "content_hash": "b1e1ac974b1130db1d5dacb5af9a14b6e98e19f02121f2a2d0ed8c03b8536282",
+    "content_changed": false
+  },
+  "cloudrift_pricing": {
+    "provider_name": "cloudrift_pricing",
+    "url": "https://www.cloudrift.ai/pricing",
+    "domain": "www.cloudrift.ai",
+    "scraped_at": "2026-08-18T01:13:05.466649",
+    "formats": [
+      "markdown",
+      "html"
+    ],
+    "success": "true",
+    "content_files": {
+      "markdown": "cloudrift_pricing_markdown.txt",
+      "html": "cloudrift_pricing_html.txt"
+    },
+    "content_lengths": {
+      "markdown": 8107,
+      "html": 6880
+    },
+    "truncated": false,
+    "truncated_formats": [],
+    "title": "GPU Rental Prices: Hourly Rates & Cost Calculator | CloudRift",
+    "description": "Compare GPU rental prices per hour: RTX 4090 from $0.39, V100 32GB from $0.29, A100 80GB from $1.05, plus RTX 5090, PRO 6000, L40S, H100 and H200. Transparent hourly rates, reserved discounts, and a monthly cost calculator.",
+    "content_hash": "c35faa87d7b84da8a001aa2e08b534bf0dcca990ff315183df512641aa35abc6",
+    "content_changed": false
+  },
+  "cloudrift_docs_pricing": {
+    "provider_name": "cloudrift_docs_pricing",
+    "url": "https://docs.cloudrift.ai/pricing",
+    "domain": "docs.cloudrift.ai",
+    "scraped_at": "2026-08-18T01:13:07.720375",
+    "formats": [
+      "markdown",
+      "html"
+    ],
+    "success": "true",
+    "content_files": {
+      "markdown": "cloudrift_docs_pricing_markdown.txt",
+      "html": "cloudrift_docs_pricing_html.txt"
+    },
+    "content_lengths": {
+      "markdown": 271,
+      "html": 193
+    },
+    "truncated": false,
+    "truncated_formats": [],
+    "title": "Page Not Found | CloudRift",
+    "description": "CloudRift documentation - Run your code on any cloud provider or your own hardware. Multi-cloud workload orchestration, LLM inference, GPU support, and container management.",
+    "content_hash": "dff9bc78e3d695df66033524d60828beb4b66774b3f0dbb0fc07d2a1a686e546",
+    "content_changed": false
+  },
+  "cloudrift_inference_docs": {
+    "provider_name": "cloudrift_inference_docs",
+    "url": "https://docs.cloudrift.ai/inference",
+    "domain": "docs.cloudrift.ai",
+    "scraped_at": "2026-08-18T01:13:23.264734",
+    "formats": [
+      "markdown",
+      "html"
+    ],
+    "success": "true",
+    "content_files": {
+      "markdown": "cloudrift_inference_docs_markdown.txt",
+      "html": "cloudrift_inference_docs_html.txt"
+    },
+    "content_lengths": {
+      "markdown": 273,
+      "html": 193
+    },
+    "truncated": false,
+    "truncated_formats": [],
+    "title": "Page Not Found | CloudRift",
+    "description": "CloudRift documentation - Run your code on any cloud provider or your own hardware. Multi-cloud workload orchestration, LLM inference, GPU support, and container management.",
+    "content_hash": "b684633f4f6d0501d7f38f0335155743899e28536d854820a4c630c7975e5464",
+    "content_changed": false
+  },
+  "cloudrift_api_models": {
+    "provider_name": "cloudrift_api_models",
+    "url": "https://inference.cloudrift.ai/v1/models",
+    "domain": "inference.cloudrift.ai",
+    "scraped_at": "2026-08-18T01:13:24.694469",
+    "formats": [
+      "markdown",
+      "html"
+    ],
+    "success": "true",
+    "content_files": {
+      "markdown": "cloudrift_api_models_markdown.txt",
+      "html": "cloudrift_api_models_html.txt"
+    },
+    "content_lengths": {
+      "markdown": 860,
+      "html": 848
+    },
+    "truncated": false,
+    "truncated_formats": [],
+    "title": null,
+    "description": null,
+    "content_hash": "0dddf5e700bf9fd7eeabbf7afee3a04d2eb587c9eed12f065b2ac073757c12d2",
+    "content_changed": false
+  },
+  "cloudrift_console": {
+    "provider_name": "cloudrift_console",
+    "url": "https://console.cloudrift.ai/",
+    "domain": "console.cloudrift.ai",
+    "scraped_at": "2026-08-18T01:13:25.824732",
+    "formats": [
+      "markdown",
+      "html"
+    ],
+    "success": "true",
+    "content_files": {
+      "markdown": "cloudrift_console_markdown.txt",
+      "html": "cloudrift_console_html.txt"
+    },
+    "content_lengths": {
+      "markdown": 69,
+      "html": 68
+    },
+    "truncated": false,
+    "truncated_formats": [],
+    "title": "CloudRift | My Instances",
+    "description": "Manage your GPU and CPU instances. Create, monitor, and control your compute resources for AI, machine learning, and rendering workloads.",
+    "content_hash": "3b052fae61b331a7c7d5e3ec8d1330f13e3bac46382d56d9837c58f5ff153736",
+    "content_changed": false
+  },
+  "cloudrift_deepseek": {
+    "provider_name": "cloudrift_deepseek",
+    "url": "https://www.cloudrift.ai/deepseek",
+    "domain": "www.cloudrift.ai",
+    "scraped_at": "2026-08-18T01:13:27.639000",
+    "formats": [
+      "markdown",
+      "html"
+    ],
+    "success": "true",
+    "content_files": {
+      "markdown": "cloudrift_deepseek_markdown.txt",
+      "html": "cloudrift_deepseek_html.txt"
+    },
+    "content_lengths": {
+      "markdown": 300,
+      "html": 207
+    },
+    "truncated": false,
+    "truncated_formats": [],
+    "title": "404: This page could not be found",
+    "description": null,
+    "content_hash": "6f12b798dd557763863885d92609ee60422601bdb6e907e8f266c51c3657c39f",
+    "content_changed": false
+  }
+}

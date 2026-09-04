@@ -1,0 +1,17 @@
+Query: show data
+2026-08-18 01:19:57,648 - INFO - Executing read_query...
+
+Recently Stored Data:
+==================================================
+
+Pricing Plans:
+  • DeepInfra: DeepSeek-V3.1 - Input Token $0.25, Output Tokens $0.95
+  • DeepInfra: DeepSeek-V3.2 - Input Token $0.26, Output Tokens $0.38
+  • DeepInfra: DeepSeek-V3 - Input Token $0.32, Output Tokens $0.89
+  • DeepInfra: DeepSeek-V3-0324 - Input Token $0.24, Output Tokens $0.9
+  • DeepInfra: DeepSeek-V3 - Input Token $0.32, Output Tokens $0.89
+==================================================
+
+Query: 
+
+
