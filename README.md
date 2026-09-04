@@ -190,7 +190,7 @@ project-Starter/
 ├── RUNNING.md               # Full start-to-finish run instructions
 └── STANDOUTS.md             # Standout-feature details and bugfix write-ups
 ```
-Full report is in [`Agentic_Price_Analysis_Report`](Agentic_Price_Analysis_Report).
+Full report is in [`Agentic_Price_Analysis_Report.pdf`](Agentic_Price_Analysis_Report.pdf).
 ---
 
 ## Prerequisites
