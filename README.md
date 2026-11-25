@@ -177,7 +177,7 @@ See [`STANDOUTS.md`](STANDOUTS.md) for full details, demo steps, and the three r
 ## Project Structure
 
 ```
-project-Starter/
+mcp-pricing-intelligence/
 ├── starter_server.py      # Custom MCP server: scrape_websites, extract_scraped_info, check_pricing_changes
 ├── starter_client.py      # MCP client: multi-server orchestration, tool-use loop, SQLite persistence
 ├── server_config.json     # MCP server definitions (llm_inference, sqlite, filesystem)
